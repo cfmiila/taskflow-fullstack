@@ -1,0 +1,163 @@
+.bodyWrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  font-family: 'Inter', 'Segoe UI', -apple-system, sans-serif;
+  background-color: #f8fafc;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 2px solid #f1f5f9;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  color: #1e3a8a;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.summaryBar {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.summaryItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.summaryLabel {
+  font-size: 10px;
+  font-weight: bold;
+  color: #94a3b8;
+  letter-spacing: 1px;
+}
+
+.summaryValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  outline: 2px solid #3b82f6;
+  border-color: transparent;
+}
+
+.addButton {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border: none;
+  padding: 0 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addButton:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #f1f5f9;
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+
+.taskContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.statusDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.taskText {
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.actionButton {
+  background-color: transparent;
+  border: 1px solid;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.actionButton:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #1e3a8a;
+  font-weight: 600;
+}

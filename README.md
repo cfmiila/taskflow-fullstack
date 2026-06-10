@@ -1,6 +1,6 @@
 # TaskFlow - Frontend Dashboard
 
-Interface reativa e moderna para gerenciamento de entregáveis corporativos e marcos estratégicos, desenvolvida em **React.js** com **Vite**.
+Interface para gerenciamento de entregáveis corporativos e marcos estratégicos, desenvolvida em **React.js** com **Vite**.
 
 ##  Engenharia e Tecnologias
 - **React.js (Vite):** Estrutura modular e SPA (Single Page Application) de alta performance.
